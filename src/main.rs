@@ -1,3 +1,6 @@
+use polars::prelude::*;
+
 fn main() {
-    println!("This project will be used for GLM testing");
+    let s: Series = [1, 2, 3].iter().collect();
+    eprintln!("{s}")
 }
